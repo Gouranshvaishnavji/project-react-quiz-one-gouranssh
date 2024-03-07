@@ -1,0 +1,65 @@
+.resultSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .resultTitle {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .resultCard {
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  .resultComment {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .resultScore {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .resultStats {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .resultStat {
+    margin: 10px 0;
+  }
+  
+  .resultStatTitle {
+    font-size: 16px;
+  }
+  
+  .resultStatValue {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .resultCta {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .playAgain,
+  .backHome {
+    padding: 10px 20px;
+    margin: 0 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }

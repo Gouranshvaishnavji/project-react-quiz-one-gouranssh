@@ -1,0 +1,21 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.Home{
+    margin: 22px 12px;
+    top: 22px;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Home button{
+    background-color: #b34506;
+    outline: none;
+    border: 1px 1px 0.3rem solid rgb(182, 174, 174);
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+}
